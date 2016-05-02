@@ -1,0 +1,25 @@
+/* line 1, ../scss/demo.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* line 4, ../scss/demo.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font: 1.2em/1.612em monospace;
+  padding: 0 1em;
+  color: #555;
+}
+
+/* line 13, ../scss/demo.scss */
+body {
+  padding-top: 1.612em;
+}
+
+/* line 16, ../scss/demo.scss */
+.comment {
+  color: #393;
+}

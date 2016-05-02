@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HOM - jHuery demo</title>
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+  <div>**********************************************************************************************</div>
+  <div>JHuery console demo - <a href="http://www.tesseract.ch">Tesseract</a> 2016</div>
+  <div>examples:</div>
+  <div class="comment">// will turn all your lamps on</div>
+  <div>jHuery("light").attr("on", true);</div>
+  <div class="comment">// will make the lamp named "kitchen lamp" red</div>
+  <div>jHuery("light[name='kitchen lamp']").attr("color", hom.rgb2xy(255, 0, 0));</div>
+  <div>**********************************************************************************************</div>
+
+  <script src="../dist/hom.js" data-config='{ "ip": "192.168.0.10", "key": "1fe032cafc0f51cd2d3923585197a7f0" }'></script>
+  <script src="../src/jhuery.js"></script>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+</body>
+</html>
