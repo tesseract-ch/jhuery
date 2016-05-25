@@ -1,39 +1,47 @@
 {
-  "name": "jhuery",
-  "version": "1.0.0",
-  "description": "",
-  "main": "loader.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "karma start --conf karma-conf.js",
-    "build": "webpack",
-    "wbuild": "webpack --watch"
-  },
-  "keywords": [
-    "Philips",
-    "Hue",
-    "Hue",
-    "smart",
-    "bulbs",
-    "jquery",
-    "HOM"
-  ],
-  "author": "Nicola Rizzo",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-shell": "^0.5.1",
-    "istanbul-instrumenter-loader": "^0.1.3",
-    "jasmine-ajax": "^3.2.0",
-    "karma": "^0.13.16",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-coverage": "^0.5.3",
-    "karma-firefox-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.6",
-    "karma-safari-launcher": "^0.1.1",
-    "karma-webpack": "^1.7.0",
-    "webpack": "^1.12.9"
-  }
+   "name": "jhuery",
+   "version": "1.0.0",
+   "homepage": "https://github.com/tesseract-ch/jhuery",
+   "description": "A HOM based library to interact with the Philips HUE lights",
+   "directories": {
+      "test": "tests"
+   },
+   "scripts": {
+      "test": "karma start --conf karma-conf.js",
+      "build": "webpack",
+      "wbuild": "webpack --watch"
+   },
+   "keywords": [
+      "Philips",
+      "Hue",
+      "Hue",
+      "smart",
+      "bulbs",
+      "jquery",
+      "HOM"
+   ],
+   "author": {
+      "name": "Nicola Rizzo",
+      "email": "nicola.rizzo@tesseract.ch"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tesseract-ch/jhuery.git"
+   },
+   "bugs": "https://github.com/tesseract-ch/jhuery/issues",
+   "license": "ISC",
+   "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-shell": "^0.5.1",
+      "istanbul-instrumenter-loader": "^0.1.3",
+      "jasmine-ajax": "^3.2.0",
+      "karma": "^0.13.16",
+      "karma-chrome-launcher": "^0.2.2",
+      "karma-coverage": "^0.5.3",
+      "karma-firefox-launcher": "^0.1.7",
+      "karma-jasmine": "^0.3.6",
+      "karma-safari-launcher": "^0.1.1",
+      "karma-webpack": "^1.7.0",
+      "webpack": "^1.12.9"
+   }
 }
